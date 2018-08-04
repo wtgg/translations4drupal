@@ -1,12 +1,9 @@
 # Drupal翻译
----
-title: Drupal翻译
-date: 2015-03-08 19:34:05
-tags: [PHP,Drupal,翻译]
----
+
 [Drupal翻译方法](#Drupal翻译方法)
 [Drupal翻译中一些特殊字符的含义及处理方法](#Drupal翻译中一些特殊字符的含义及处理方法)
-# Drupal翻译方法
+
+## Drupal翻译方法
 > 测试环境：php 	5.5.17 + [Drupal 7.50](https://www.drupal.org/project/drupal/releases/7.50)
 
 安装好Drupal核心包之后，导入[官方汉化文件](http://ftp.drupal.org/files/translations/7.x/drupal/drupal-7.50.zh-hans.po)(.po格式)
@@ -45,7 +42,7 @@ tags: [PHP,Drupal,翻译]
 ![](https://git.kancloud.cn/repos/wtgg/translations4drupal/raw/1139baaf1d6651bd865fb9aea10f261c556ed719/image/poedit%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE.png?access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MzM0MDE4NzQsImlhdCI6MTUzMzM1ODY3NCwiYm9vayI6eyJ1cmkiOiJ3dGdnXC90cmFuc2xhdGlvbnM0ZHJ1cGFsIiwiaXNfYXV0b19yZWxlYXNlIjpmYWxzZX0sInVzZXIiOnsidXNlcm5hbWUiOiJ3dGdnIiwibmFtZSI6Ind0Z2ciLCJlbWFpbCI6Ind0bGl0QHFxLmNvbSIsInRva2VuIjoiMWUzOTY5YjdkMjlkNDBiYjk5ZWNhMDAyNWNlOGY4NGYiLCJhdXRob3JpemUiOnsicHVsbCI6dHJ1ZSwicHVzaCI6dHJ1ZSwiYWRtaW4iOnRydWV9fX0.j7FRmmZ3tXJ4hvGiwInP8uExWs7UGu38aiU_4q28lxE)
 ![](https://git.kancloud.cn/repos/wtgg/translations4drupal/raw/1139baaf1d6651bd865fb9aea10f261c556ed719/image/%E5%AF%BC%E5%85%A5%E6%88%90%E5%8A%9F.png?access-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MzM0MDE4NzQsImlhdCI6MTUzMzM1ODY3NCwiYm9vayI6eyJ1cmkiOiJ3dGdnXC90cmFuc2xhdGlvbnM0ZHJ1cGFsIiwiaXNfYXV0b19yZWxlYXNlIjpmYWxzZX0sInVzZXIiOnsidXNlcm5hbWUiOiJ3dGdnIiwibmFtZSI6Ind0Z2ciLCJlbWFpbCI6Ind0bGl0QHFxLmNvbSIsInRva2VuIjoiMWUzOTY5YjdkMjlkNDBiYjk5ZWNhMDAyNWNlOGY4NGYiLCJhdXRob3JpemUiOnsicHVsbCI6dHJ1ZSwicHVzaCI6dHJ1ZSwiYWRtaW4iOnRydWV9fX0.j7FRmmZ3tXJ4hvGiwInP8uExWs7UGu38aiU_4q28lxE)
 
-# Drupal翻译中一些特殊字符的含义及处理方法
+## Drupal翻译中一些特殊字符的含义及处理方法
 1. html标签：
 保留html标签及属性值，只翻译标签内容
 如`<a href=\"@blocks\">Blocks administration page</a>`
