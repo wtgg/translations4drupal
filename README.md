@@ -1,7 +1,7 @@
 # Drupal翻译
 
-[Drupal翻译方法](#Drupal翻译方法)
-[Drupal翻译中一些特殊字符的含义及处理方法](#Drupal翻译中一些特殊字符的含义及处理方法)
+ - [Drupal翻译方法](#Drupal翻译方法)
+ - [Drupal翻译中一些特殊字符的含义及处理方法](#Drupal翻译中一些特殊字符的含义及处理方法)
 
 ## Drupal翻译方法
 > 测试环境：php 	5.5.17 + [Drupal 7.50](https://www.drupal.org/project/drupal/releases/7.50)
